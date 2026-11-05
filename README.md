@@ -1,18 +1,15 @@
 # LeetSense for Safari
 
-A small Safari Web Extension that provides simple word suggestions in LeetCode's Monaco editor. It suggests identifiers already present in your code for the selected editor language. It runs locally in the page and does not send code anywhere.
+Simple word suggestions for identifiers already in LeetCode code. Works across Monaco editor languages and runs locally in the page.
 
-## Install temporarily in Safari on Mac
+## Download and install on Mac
 
-1. Download `LeetSense-Safari.zip` from this repository. If Safari does not open the ZIP directly, double-click it in Downloads to extract it.
+[Download LeetSense for Safari as a ZIP](https://github.com/suyashgupta27/LeetSense-Safari/archive/refs/heads/main.zip) — this downloads one ZIP containing the repository and extension files.
+
+1. Extract the ZIP. Open the extracted `LeetSense-Safari-main` folder; `manifest.json`, `content.js`, and `bridge.js` are at its top level.
 2. In Safari, choose **Safari → Settings → Advanced** and enable **Show features for web developers**.
-3. Choose **Safari → Settings → Developer → Add Temporary Extension…** and select the downloaded ZIP or the extracted folder containing `manifest.json`.
-4. If prompted, allow unsigned extensions. Then choose **Safari → Settings → Extensions** and turn on **LeetSense for Safari**.
-5. Open or refresh a LeetCode problem page to use the extension.
+3. Choose **Safari → Settings → Developer → Add Temporary Extension…** and select the extracted `LeetSense-Safari-main` folder.
+4. If prompted, allow unsigned extensions. Then choose **Safari → Settings → Extensions** and enable **LeetSense for Safari**.
+5. Open or refresh a LeetCode problem page.
 
-Temporary extensions are for development and may need to be added again after Safari restarts. Permanent distribution requires packaging and signing the extension in a macOS app with Xcode.
-
-## Current scope
-
-- Simple word suggestions for identifiers already in the current code, across LeetCode editor languages.
-- Runs on `leetcode.com`; it does not provide semantic IntelliSense, hover documentation, or diagnostics.
+Temporary extensions may need to be added again after Safari restarts. Permanent distribution requires packaging and signing the extension in a macOS app with Xcode.
