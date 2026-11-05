@@ -6,7 +6,7 @@ Simple word suggestions for identifiers already in LeetCode code. Works across M
 
 LeetSense for Safari is an unofficial third-party extension. It is not affiliated with, endorsed by, or sponsored by LeetCode, LLC or Apple Inc. “LeetCode” and “Safari” are names and marks of their respective owners and are used here only to identify compatibility.
 
-The extension suggests identifiers already present in the active code editor. Suggestions are generated locally from the user's current code; the extension makes no external network requests and does not fetch LeetCode problem statements or solutions. This basic word-completion feature may overlap with part of the autocomplete LeetCode offers through Premium. The extension does not read Premium account status or modify subscription or access controls. This notice is not authorization from LeetCode; use of LeetCode remains subject to LeetCode’s current Terms of Service.
+The extension suggests identifiers already present in the active code editor. Suggestions are generated locally from the user's current code; the extension makes no external network requests and does not fetch LeetCode problem statements or solutions.
 
 ## Download and install on Mac
 
