@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "LeetSense for Safari",
+  "version": "0.1.0",
+  "description": "Autocomplete and coding snippets for LeetCode.",
+  "permissions": [],
+  "host_permissions": ["https://leetcode.com/*"],
+  "content_scripts": [{
+    "matches": ["https://leetcode.com/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle",
+    "all_frames": true
+  }],
+  "web_accessible_resources": [{
+    "resources": ["bridge.js"],
+    "matches": ["https://leetcode.com/*"]
+  }],
+  "action": { "default_title": "LeetSense" }
+}
